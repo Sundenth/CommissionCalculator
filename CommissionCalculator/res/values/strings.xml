@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CommissionCalculatorActivity!</string>
+    <string name="app_name">CommissionCalculator</string>
+    <string name="menu_item_new">New Data</string>
+    <string name="menu_item_load">Load Data</string>
+    <string name="menu_item_historical">Historical Data</string>
+</resources>

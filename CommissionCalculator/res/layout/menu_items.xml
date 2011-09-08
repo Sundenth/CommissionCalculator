@@ -8,6 +8,5 @@
     android:shadowRadius="5"
     android:gravity="center"
     android:textColor="@color/menu_color"
-    android:shadowColor="@color/menu_glow"
     android:shadowDy="3"
     android:shadowDx="3" />

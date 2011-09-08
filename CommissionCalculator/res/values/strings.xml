@@ -3,6 +3,7 @@
     <string name="hello">Hello World, CommissionCalculatorActivity!</string>
     <string name="app_name">CommissionCalculator</string>
     <string name="menu_item_new">New Data</string>
-    <string name="menu_item_load">Load Data</string>
-    <string name="menu_item_historical">Historical Data</string>
+    <string name="menu_item_load">Load</string>
+    <string name="menu_item_historical">Records</string>
+    <string name="menu_item_graph">Graphs</string>
 </resources>

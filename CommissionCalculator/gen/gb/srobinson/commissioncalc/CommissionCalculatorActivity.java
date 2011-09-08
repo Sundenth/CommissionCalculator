@@ -15,7 +15,8 @@ public class CommissionCalculatorActivity extends Activity {
         
         String[] items = { getResources().getString(R.string.menu_item_new),
         		getResources().getString(R.string.menu_item_load),
-        		getResources().getString(R.string.menu_item_historical) };
+        		getResources().getString(R.string.menu_item_historical),
+        		getResources().getString(R.string.menu_item_graph) };
         
         ArrayAdapter<String> adapt = new ArrayAdapter<String>(this,
         		R.layout.menu_items, items);

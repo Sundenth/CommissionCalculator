@@ -2,6 +2,7 @@
 <resources>
     <string name="hello">Hello World, CommissionCalculatorActivity!</string>
     <string name="app_name">CommissionCalculator</string>
+    <string name="app_desc">Simple calculator for commission created by Stuart Robinson</string>
     <string name="menu_item_new">New Data</string>
     <string name="menu_item_load">Load</string>
     <string name="menu_item_historical">Records</string>

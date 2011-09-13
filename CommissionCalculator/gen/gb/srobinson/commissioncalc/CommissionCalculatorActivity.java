@@ -20,18 +20,13 @@ public class CommissionCalculatorActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         ListView menulist = (ListView) findViewById(R.id.ListView_Menu) ;
-        
         String[] items = { getResources().getString(R.string.menu_item_new),
         		getResources().getString(R.string.menu_item_load),
         		getResources().getString(R.string.menu_item_historical),
         		getResources().getString(R.string.menu_item_graph) };
-        
-     
-        
         ArrayAdapter<String> adapt = new ArrayAdapter<String>(this, R.layout.menu_items, items);
         menulist.setAdapter(adapt);
         menulist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
             public void onItemClick(AdapterView<?> parent, View itemClicked, int position, long id) {
                 TextView textView = (TextView) itemClicked;
                 String strText = textView.getText().toString();
@@ -53,12 +48,4 @@ public class CommissionCalculatorActivity extends Activity {
         });
 
     }; 
-        
-     
-        
-        
-        }
-        
-        
-    
-
+            }

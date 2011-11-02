@@ -15,7 +15,7 @@
 <activity
             android:name="newActivity" android:enabled="true"></activity>
         <activity
-            android:enabled="true" android:name="loadActivity"></activity>
+            android:name="loadActivity" android:enabled="true"></activity>
         <activity
             android:name="historicalActivity" android:enabled="true"></activity>
         <activity
